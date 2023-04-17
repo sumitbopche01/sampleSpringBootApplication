@@ -31,7 +31,6 @@ public class NotificationController {
     public String getNotification() {
         StringBuilder sb = new StringBuilder();
         sb.append("<table border='1'>");
-        sb.append("<tr><th>To</th><th>Body</th></tr>");
         sb.append("<tr>");
         sb.append("<td>").append("This Spring Application is working!").append("</td>");
         sb.append("</tr>");
