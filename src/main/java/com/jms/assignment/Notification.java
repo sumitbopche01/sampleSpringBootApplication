@@ -10,6 +10,6 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Data
 public class Notification implements Serializable {
-    private String to;
+    private String sender;
     private String body;
 }
